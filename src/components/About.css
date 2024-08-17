@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather+Sans:ital@1&family=Noto+Serif+Lao&display=swap');
+.about{
+    margin: 0;
+    padding: 0;
+    background-color: #61B4E7;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+    padding: 0;
+} 
+
+.right{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+    padding: 0;    
+}
+
+h1{
+    text-align: left;
+    margin-right: 20px;
+    /* margin-top: 40px;  */
+    font-family: 'Fjalla One', sans-serif;
+    color: #3C3B3E;
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 20px;  
+    font-family: 'Fjalla One', sans-serif;
+    color: #3C3B3E;
+   }
+
+ .details{
+    display: inline-block;
+ }
+
+ .details h4{
+    display: inline-block;
+    /* margin-top: 20px; */
+    margin-left: 20px;  
+    color: #FFFFFF;
+ }
+
+
+p{
+    text-align: left;
+    margin-left: 20px;  
+    /* margin-top: 20px;   */
+    width: 80%; 
+    color: #FFFFFF;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.about-button{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* animated class */
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+/* animation keyframes */
+@-webkit-keyframes up-down {
+   0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+  @keyframes up-down {
+    0% {
+         transform: translateY(10px);
+     }
+ 
+     100% {
+         transform: translateY(-10px);
+     }
+ }
+
